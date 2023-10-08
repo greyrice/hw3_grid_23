@@ -116,14 +116,14 @@ li a:focus{
 
 /* Step 2a: Write selector/rule property to position the default position for the skip class element*/
 .skip{
-  position: relative;
-  bottom: 40px;
+  position: absolute;
+  top: -40px;
 }
 
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
 .skip:focus{
-  position: relative;
   top: 20px;
+  
 }
 
 /* Step 3: Write selector/rule property to style all elements when in focus*/
@@ -144,7 +144,7 @@ first div in the grid  and place it in the grid. */
 
 .container>:first-child{
   grid-column: 1 / span 3; 
-  background-image: url('hw3_grid_23/images/header.jpg');
+  background-image: url('/images/header.jpg');
 
 }
 

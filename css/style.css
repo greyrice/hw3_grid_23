@@ -178,28 +178,28 @@ first div in the grid  and place it in the grid. */
 
 .about-image{
   grid-column: 1 / span 3;
-  grid-row: 2; /* Begins on the 2nd row */
+  grid-row: 2; 
   max-height: 600px;
   overflow: hidden;
 }
 
 .method-image{
   grid-column: 1 / span 3;
-  grid-row: 3; /* Begins on the 3rd row */
+  grid-row: 3;
   max-height: 600px;
   overflow: hidden;
 }
 
 .clients-image{
   grid-column: 1 / span 3;
-  grid-row: 4; /* Begins on the 4th row */
+  grid-row: 4; 
   max-height: 600px;
   overflow: hidden;
 }
 
 .contact-image{
   grid-column: 1 / span 3;
-  grid-row: 5; /* Begins on the 5th row */
+  grid-row: 5; 
   max-height: 600px;
   overflow: hidden;
 }

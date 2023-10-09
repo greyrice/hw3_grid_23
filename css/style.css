@@ -264,5 +264,7 @@ nav{
  .text-block {
   max-height: 250px; 
   overflow: auto; 
+  
+  
 }
 }

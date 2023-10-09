@@ -136,7 +136,7 @@ li a:focus{
 .container{
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  grid-gap: 15px;
+  grid-row-gap: 15px;
 }
 
 /* Step 5: Write selector/rule property to add the background image to the 
@@ -261,7 +261,7 @@ nav{
 }
  /* Step 13:Write the selector/rule property to update the .text-block class */
  .text-block {
-  max-height: 250px; /* Maximum height of 250 pixels */
-  overflow: visible; /* Add a scrollbar when content overflows */
+  max-height: 250px; 
+  overflow: auto; 
 }
 }
